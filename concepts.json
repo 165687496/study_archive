@@ -128,9 +128,27 @@
    "note": ""
   },
   {
-   "id": "meet-a-deadline",
-   "label": "meet a deadline",
-   "domain": "TOEIC 어휘",
+   "id": "make-a-reservation",
+   "label": "make a reservation",
+   "domain": "TOEIC collocation",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "reservation"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "지식",
+     "match": "make a reservation, reach an agreement, attend a meeting을 예문 속에서 학습했다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "reservation",
+   "label": "reservation",
+   "domain": "미분류",
    "state": "미학습",
    "importance": "M",
    "prereq": [],
@@ -138,8 +156,362 @@
    "note": ""
   },
   {
+   "id": "reach-an-agreement",
+   "label": "reach an agreement",
+   "domain": "TOEIC collocation",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "agreement",
+    "negotiation"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "지식",
+     "match": "make a reservation, reach an agreement, attend a meeting을 예문 속에서 학습했다."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "퀴즈",
+     "match": "Q1: The two parties failed to reach an agreement. / 내 답: \"협의에 도달하는 데에 실패한 양측 당사자들\" / 채점: 핵심 뜻은 맞음. 자연스러운 문장은 \"양측은 합의에 이르지 못했다.\""
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "agreement",
+   "label": "agreement",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "negotiation",
+   "label": "negotiation",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "attend-a-meeting",
+   "label": "attend a meeting",
+   "domain": "TOEIC collocation",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "meeting"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "지식",
+     "match": "make a reservation, reach an agreement, attend a meeting을 예문 속에서 학습했다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "meeting",
+   "label": "meeting",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "conduct-a-survey",
+   "label": "conduct a survey",
+   "domain": "TOEIC collocation",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "survey"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "지식",
+     "match": "다음 collocation 5개를 영어 표현으로 회상했다: meet a deadline, submit a report, be responsible for, place an order, conduct a survey."
+    },
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "내말",
+     "match": "\"meet a deadline, submit a report, be responsible for, place an order, conduct a survey\""
+    },
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "퀴즈",
+     "match": "Q2: 마감일을 맞추다, 보고서를 제출하다, ~을 책임지다, 주문하다, 설문조사를 실시하다 / 내 답: meet a deadline, submit a report, be responsible for, place an order, conduct a survey / 채점: 5개 모두 정답."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "지식",
+     "match": "meet a deadline, submit a report, be responsible for, place an order, conduct a survey를 한국어 단서에서 회상했다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "survey",
+   "label": "survey",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "퀴즈",
+     "match": "Q3: meet the deadline, submit your report, responsible for, place an order, conducted a survey의 빈칸 / 내 답: meet, submit, for, place, conduct / 채점: 5개 모두 정답."
+    }
+   ],
+   "note": ""
+  },
+  {
    "id": "submit-a-report",
    "label": "submit a report",
+   "domain": "TOEIC collocation",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "report"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "지식",
+     "match": "다음 collocation 5개를 영어 표현으로 회상했다: meet a deadline, submit a report, be responsible for, place an order, conduct a survey."
+    },
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "내말",
+     "match": "\"meet a deadline, submit a report, be responsible for, place an order, conduct a survey\""
+    },
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "퀴즈",
+     "match": "Q2: 마감일을 맞추다, 보고서를 제출하다, ~을 책임지다, 주문하다, 설문조사를 실시하다 / 내 답: meet a deadline, submit a report, be responsible for, place an order, conduct a survey / 채점: 5개 모두 정답."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "지식",
+     "match": "meet a deadline, submit a report, be responsible for, place an order, conduct a survey를 한국어 단서에서 회상했다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "report",
+   "label": "report",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "퀴즈",
+     "match": "Q3: meet the deadline, submit your report, responsible for, place an order, conducted a survey의 빈칸 / 내 답: meet, submit, for, place, conduct / 채점: 5개 모두 정답."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "party의-문맥별-의미",
+   "label": "party의 문맥별 의미",
+   "domain": "TOEIC 문맥 어휘",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "계약협상-문맥",
+    "정치-문맥",
+    "행사-문맥"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "계약협상-문맥",
+   "label": "계약·협상 문맥",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "교정",
+     "match": "both parties는 계약·협상 문맥에서 \"두 정당\"이 아니라 \"양측\" 또는 \"두 당사자\"이다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "정치-문맥",
+   "label": "정치 문맥",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "행사-문맥",
+   "label": "행사 문맥",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "지식",
+     "match": "party는 문맥에 따라 계약·협상의 당사자, 정당, 모임을 뜻할 수 있고 정치·계약·행사 문맥을 보고 구분해야 한다는 점을 확인했다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "in-advance",
+   "label": "in advance",
+   "domain": "TOEIC 문맥 어휘",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "시간-표현",
+    "at-least"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "교정",
+     "match": "one day in advance는 \"최소 하루 이내에\"가 아니라 \"하루 전에\"이다. at least가 있을 때만 \"최소\"가 들어간다."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "취약",
+     "match": "in advance가 포함된 시간 표현을 자연스럽게 해석하는 것"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "시간-표현",
+   "label": "시간 표현",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "취약",
+     "match": "in advance가 포함된 시간 표현을 자연스럽게 해석하는 것"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "at-least",
+   "label": "at least",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "교정",
+     "match": "one day in advance는 \"최소 하루 이내에\"가 아니라 \"하루 전에\"이다. at least가 있을 때만 \"최소\"가 들어간다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "department-heads",
+   "label": "department heads",
+   "domain": "TOEIC 문맥 어휘",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "department",
+    "head"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "교정",
+     "match": "department heads는 \"아파트 참모\"가 아니라 \"부서장들\"이다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "department",
+   "label": "department",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "head",
+   "label": "head",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "impressed-impressive",
+   "label": "impressed / impressive",
+   "domain": "TOEIC 문맥 어휘",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "감정의-경험자",
+    "감정의-원인"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "감정의-경험자",
+   "label": "감정의 경험자",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "감정의-원인",
+   "label": "감정의 원인",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "meet-a-deadline",
+   "label": "meet a deadline",
    "domain": "TOEIC 어휘",
    "state": "미학습",
    "importance": "M",
@@ -160,16 +532,6 @@
   {
    "id": "place-an-order",
    "label": "place an order",
-   "domain": "TOEIC 어휘",
-   "state": "미학습",
-   "importance": "M",
-   "prereq": [],
-   "sources": [],
-   "note": ""
-  },
-  {
-   "id": "conduct-a-survey",
-   "label": "conduct a survey",
    "domain": "TOEIC 어휘",
    "state": "미학습",
    "importance": "M",

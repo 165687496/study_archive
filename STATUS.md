@@ -26,7 +26,7 @@ kind: status
 
 ## 🎯 오늘의 추천 목표 — 오늘 할 것 (15~60분)
 
-- 다음 토익 세션 시작 시 오늘 collocation 5개를 먼저 누적 복습하고, 빈출 collocation 5개를 추가한다.
+- 다음 TOEIC 세션에서는 새 collocation을 예문과 빈칸으로 추가하되, 오늘 오답인 in advance와 party를 새 문맥에 섞어 누적 복습한다.
 
 ## 지금 약한 것 (top 5 — 세션은 여기서 시작)
 > 전체는 [[mastery.md]]. 아직 `설명가능`이 아닌 것부터.
