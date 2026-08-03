@@ -134,7 +134,8 @@
    "state": "미학습",
    "importance": "M",
    "prereq": [
-    "reservation"
+    "reservation",
+    "in-advance"
    ],
    "sources": [
     {
@@ -677,6 +678,413 @@
    "note": ""
   },
   {
+   "id": "품사-판단",
+   "label": "품사 판단",
+   "domain": "TOEIC Part 5 문법·논리",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "문장-구조",
+    "수식-관계"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "문장-구조",
+   "label": "문장 구조",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "수식-관계",
+   "label": "수식 관계",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "even-though",
+   "label": "even though",
+   "domain": "TOEIC Part 5 문법·논리",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "역접",
+    "절과-절의-의미-관계"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "지식",
+     "match": "even though는 보증 기간이 만료되었는데도 무상 교체한다는 역접 관계를 나타낸다는 것을 이해했다."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "내말",
+     "match": "\"보증 기간이 만료되었으니까 교체하는거 아니야?? 아 보증이라는게 아.... 일단 보증이 만료되었으니 제조업체가 교체해줘야겠구나라는 의미로 받아들였는데, 보증기간이 만료되기 전에 교체해줄 수 있는거니까 even though가 필요하다는거 정말 이해했어. 한국말 이슈인 것 같아...\""
+    },
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "퀴즈",
+     "match": "Q4: warranty period has already expired / 내 답: B(unless), 확신도 B / 채점: 오답. even though가 역접 관계를 만든다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "역접",
+   "label": "역접",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "지식",
+     "match": "even though는 보증 기간이 만료되었는데도 무상 교체한다는 역접 관계를 나타낸다는 것을 이해했다."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "퀴즈",
+     "match": "Q4: warranty period has already expired / 내 답: B(unless), 확신도 B / 채점: 오답. even though가 역접 관계를 만든다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "절과-절의-의미-관계",
+   "label": "절과 절의 의미 관계",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "unless",
+   "label": "unless",
+   "domain": "TOEIC Part 5 문법·논리",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "조건",
+    "예외-조건"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "퀴즈",
+     "match": "Q4: warranty period has already expired / 내 답: B(unless), 확신도 B / 채점: 오답. even though가 역접 관계를 만든다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "조건",
+   "label": "조건",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "교정",
+     "match": "조건·예외 문제에서 B와 D가 모두 승인 불필요가 되어 단일 정답형 문제가 성립하지 않았다. 사용자가 이 오류를 정확히 지적했다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "예외-조건",
+   "label": "예외 조건",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "제출-방식과-제출-의무의-구분",
+   "label": "제출 방식과 제출 의무의 구분",
+   "domain": "TOEIC Part 7 독해",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "절차-변화",
+    "범위-통제"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "절차-변화",
+   "label": "절차 변화",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "범위-통제",
+   "label": "범위 통제",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "패러프레이즈-대응",
+   "label": "패러프레이즈 대응",
+   "domain": "TOEIC Part 7 독해",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "moved-from-a-to-b",
+    "different-location"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "moved-from-a-to-b",
+   "label": "moved from A to B",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "지식",
+     "match": "will be moved from A to B와 will take place in a different location의 패러프레이즈 관계를 찾았다."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "퀴즈",
+     "match": "재검증: 교육 장소 변경 패러프레이즈 / 내 답: C / 채점: 정답. moved from A to B와 different location의 대응을 설명함."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "different-location",
+   "label": "different location",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "지식",
+     "match": "will be moved from A to B와 will take place in a different location의 패러프레이즈 관계를 찾았다."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "퀴즈",
+     "match": "재검증: 교육 장소 변경 패러프레이즈 / 내 답: C / 채점: 정답. moved from A to B와 different location의 대응을 설명함."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "시간-관계-추론",
+   "label": "시간 관계 추론",
+   "domain": "TOEIC Part 7 독해",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "after",
+    "following-morning",
+    "요일-계산"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "퀴즈",
+     "match": "재검증: 금요일 오후 4시 온라인 주문 / 내 답: B / 채점: 정답. 시간 관계 추론 성공."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "after",
+   "label": "after",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "following-morning",
+   "label": "following morning",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "요일-계산",
+   "label": "요일 계산",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "조건예외-적용",
+   "label": "조건·예외 적용",
+   "domain": "TOEIC Part 7 독해",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "기본-규칙",
+    "예외-규칙"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "기본-규칙",
+   "label": "기본 규칙",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "예외-규칙",
+   "label": "예외 규칙",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "지식",
+     "match": "24시간 전 예약 규칙과 visiting clients 예외 규칙을 동시에 적용해 복수 정답이 되는 문제 오류를 발견했다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "선택지-범위-오류",
+   "label": "선택지 범위 오류",
+   "domain": "TOEIC Part 7 독해",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "일부-변화",
+    "전체-폐지"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "일부-변화",
+   "label": "일부 변화",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "전체-폐지",
+   "label": "전체 폐지",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "place-an-order",
+   "label": "place an order",
+   "domain": "TOEIC collocation",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "order",
+    "온라인-주문-문맥"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "지식",
+     "match": "다음 collocation 5개를 영어 표현으로 회상했다: meet a deadline, submit a report, be responsible for, place an order, conduct a survey."
+    },
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "내말",
+     "match": "\"meet a deadline, submit a report, be responsible for, place an order, conduct a survey\""
+    },
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "퀴즈",
+     "match": "Q2: 마감일을 맞추다, 보고서를 제출하다, ~을 책임지다, 주문하다, 설문조사를 실시하다 / 내 답: meet a deadline, submit a report, be responsible for, place an order, conduct a survey / 채점: 5개 모두 정답."
+    },
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "퀴즈",
+     "match": "Q3: meet the deadline, submit your report, responsible for, place an order, conducted a survey의 빈칸 / 내 답: meet, submit, for, place, conduct / 채점: 5개 모두 정답."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-collocation-context.md",
+     "kind": "지식",
+     "match": "meet a deadline, submit a report, be responsible for, place an order, conduct a survey를 한국어 단서에서 회상했다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "order",
+   "label": "order",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "온라인-주문-문맥",
+   "label": "온라인 주문 문맥",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
    "id": "meet-a-deadline",
    "label": "meet a deadline",
    "domain": "TOEIC 어휘",
@@ -689,16 +1097,6 @@
   {
    "id": "be-responsible-for",
    "label": "be responsible for",
-   "domain": "TOEIC 어휘",
-   "state": "미학습",
-   "importance": "M",
-   "prereq": [],
-   "sources": [],
-   "note": ""
-  },
-  {
-   "id": "place-an-order",
-   "label": "place an order",
    "domain": "TOEIC 어휘",
    "state": "미학습",
    "importance": "M",

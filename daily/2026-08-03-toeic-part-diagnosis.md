@@ -39,10 +39,45 @@ source_issue: 4
 - location은 해당 문맥에서 "지역"보다 "장소"가 자연스럽다.
 - 조건·예외 문제에서 B와 D가 모두 승인 불필요가 되어 단일 정답형 문제가 성립하지 않았다. 사용자가 이 오류를 정확히 지적했다.
 
-> ⚠️ 아래 헤딩은 수집기가 자동 보정했다 — 세션에 실제 기록이 없었다는 뜻이다.
+## 퀴즈
+- Q1: Employees requesting reimbursement must submit all receipts _____ ten business days. / 내 답: A(within), 확신도 B / 채점: 정답.
+- Q2: information was not sufficiently _____. / 내 답: B(conclusive), 확신도 A / 채점: 정답.
+- Q3: one of the company’s most _____ negotiators / 내 답: C(effective), 확신도 A / 채점: 정답.
+- Q4: warranty period has already expired / 내 답: B(unless), 확신도 B / 채점: 오답. even though가 역접 관계를 만든다.
+- Q5: entrance will remain closed _____ repairs are completed / 내 답: B(until), 확신도 A / 채점: 정답.
+- Q6: additional security personnel의 목적 / 내 답: C, 확신도 A / 채점: 정답.
+- Q7: new inventory portal에 대한 정보 / 내 답: D, 확신도 B / 채점: 오답. 정답은 B이며 오류 자동 점검 기능이 근거다.
+- Q8: tomorrow에 일어날 일 / 내 답: C, 확신도 A / 채점: 정답.
+- 재검증: 영수증 직접 제출에서 웹 업로드로 바뀐 절차 / 내 답: C / 채점: 제출 방식과 제출 의무를 정확히 분리함.
+- 재검증: 교육 장소 변경 패러프레이즈 / 내 답: C / 채점: 정답. moved from A to B와 different location의 대응을 설명함.
+- 재검증: 금요일 오후 4시 온라인 주문 / 내 답: B / 채점: 정답. 시간 관계 추론 성공.
 
 ## 취약 영역
-- (이번 세션 기록 없음)
+- 일부 절차의 변화를 전체 필요성의 폐지로 확대 해석하는 경향
+- 현실 배경 개념이 문장 논리 해석에 개입할 때 생기는 오류
+- 실제 시험 환경에서의 RC 풀이 속도는 표본이 부족해 아직 판단 불가
+- Part 5·6·7별 강약점은 더 많은 기출형 표본이 필요함
 
 ## 다음 복습 질문
-- (이번 세션 기록 없음)
+1. 제출 방식이 바뀐 것과 제출 의무가 사라진 것을 어떻게 구분할 수 있는가?
+2. even though와 unless가 만드는 논리 관계를 각각 설명할 수 있는가?
+3. Part 7 선택지에서 지문보다 범위를 넓힌 표현을 어떻게 찾아낼 것인가?
+4. 제한 시간 안에서 Part 5·6·7별 정답률과 오답 원인은 어떻게 달라지는가?
+
+## 개념 지도
+### TOEIC Part 5 문법·논리
+- 품사 판단 ← 문장 구조, 수식 관계
+- even though ← 역접, 절과 절의 의미 관계
+- unless ← 조건, 예외 조건
+
+### TOEIC Part 7 독해
+- 제출 방식과 제출 의무의 구분 ← 절차 변화, 범위 통제
+- 패러프레이즈 대응 ← moved from A to B, different location
+- 시간 관계 추론 ← after, following morning, 요일 계산
+- 조건·예외 적용 ← 기본 규칙, 예외 규칙
+- 선택지 범위 오류 ← 일부 변화, 전체 폐지
+
+### TOEIC collocation
+- place an order ← order, 온라인 주문 문맥
+- make a reservation ← reservation, in advance
+- reach an agreement ← agreement, negotiation
