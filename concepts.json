@@ -1,0 +1,181 @@
+{
+ "concepts": [
+  {
+   "id": "toeic-빈출-collocation-5개",
+   "label": "TOEIC 빈출 collocation 5개",
+   "domain": "미분류",
+   "state": "암기",
+   "importance": "H",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "원장",
+     "match": ""
+    }
+   ],
+   "note": "2026-08-02"
+  },
+  {
+   "id": "분사형-형용사-의미-구분",
+   "label": "분사형 형용사 의미 구분",
+   "domain": "TOEIC 문법",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "수동-관계",
+    "능동-관계"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "수동-관계",
+   "label": "수동 관계",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "교정",
+     "match": "inspiring이 오답인 핵심 이유는 목적어 유무보다 문장의 의미와 by가 이끄는 수동 관계 때문이다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "능동-관계",
+   "label": "능동 관계",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "part-5-품사-판단",
+   "label": "Part 5 품사 판단",
+   "domain": "TOEIC 문법",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "관사",
+    "명사",
+    "주격보어"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "관사",
+   "label": "관사",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "내말",
+     "match": "\"c 이고, 관사인 a 뒤와, 명사인 presentation을 꾸며주는 형용사가 들어갈 자리이기 때문에 A와 D는 불가능하고, B는 일반적으로 사람을 꾸며준다고 생각해서 C를 골랐어.\""
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "명사",
+   "label": "명사",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "지식",
+     "match": "Part 5에서 빈칸 뒤에 명사 presentation이 있으므로, 그 명사를 꾸미는 형용사가 들어갈 자리라고 설명했다."
+    },
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "내말",
+     "match": "\"c 이고, 관사인 a 뒤와, 명사인 presentation을 꾸며주는 형용사가 들어갈 자리이기 때문에 A와 D는 불가능하고, B는 일반적으로 사람을 꾸며준다고 생각해서 C를 골랐어.\""
+    },
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "내말",
+     "match": "\"답은 C야. 빈칸 자리는 주격보어가 들어갈 자리라 문법적으로는 명사 형용사 다 들어갈 수 있는데, 문맥을 파악했을 때 by가 들어간 것으로 보아 수동태 형태로 들어가는 것이 적절해보여. A는 were이라는 동사가 있기 때문에 동사원형이 들어가면 안되고, B는 inspire이 타동사인데 목적어가 없어서 안될 것 같고, D는 employees가 영감이라는 의미가 되므로 일치하지 않다고 생각했어\""
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "주격보어",
+   "label": "주격보어",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "내말",
+     "match": "\"답은 C야. 빈칸 자리는 주격보어가 들어갈 자리라 문법적으로는 명사 형용사 다 들어갈 수 있는데, 문맥을 파악했을 때 by가 들어간 것으로 보아 수동태 형태로 들어가는 것이 적절해보여. A는 were이라는 동사가 있기 때문에 동사원형이 들어가면 안되고, B는 inspire이 타동사인데 목적어가 없어서 안될 것 같고, D는 employees가 영감이라는 의미가 되므로 일치하지 않다고 생각했어\""
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "meet-a-deadline",
+   "label": "meet a deadline",
+   "domain": "TOEIC 어휘",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "submit-a-report",
+   "label": "submit a report",
+   "domain": "TOEIC 어휘",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "be-responsible-for",
+   "label": "be responsible for",
+   "domain": "TOEIC 어휘",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "place-an-order",
+   "label": "place an order",
+   "domain": "TOEIC 어휘",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "conduct-a-survey",
+   "label": "conduct a survey",
+   "domain": "TOEIC 어휘",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  }
+ ]
+}

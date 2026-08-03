@@ -15,6 +15,7 @@ kind: mastery
 <!-- MASTERY-TABLE:START -->
 | 개념 | 상태 | 중요도 | 최근 검증일 | 증거(daily 세션) | 변화 메모(무엇이·왜 바뀌었나) |
 |---|---|---|---|---|---|
+| TOEIC 빈출 collocation 5개 | 암기 | H | 2026-08-02 | daily/2026-08-02-toeic-collocation.md | 한국어 뜻과 빈칸을 보고 5개 모두 회상함. 장기 기억은 다음 세션에서 재검증 필요. |
 <!-- MASTERY-TABLE:END -->
 
 ## 읽는 법
