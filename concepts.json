@@ -510,6 +510,173 @@
    "note": ""
   },
   {
+   "id": "파트별-강점약점-진단",
+   "label": "파트별 강점·약점 진단",
+   "domain": "TOEIC 학습 전략",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "lc-파트별-오류",
+    "rc-파트별-오류",
+    "시간-관리",
+    "오답-원인"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "lc-파트별-오류",
+   "label": "LC 파트별 오류",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "rc-파트별-오류",
+   "label": "RC 파트별 오류",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "시간-관리",
+   "label": "시간 관리",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "오답-원인",
+   "label": "오답 원인",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "900점-목표",
+   "label": "900점 목표",
+   "domain": "TOEIC 학습 전략",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "파트별-진단",
+    "우선순위-설정",
+    "오답-분석"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-goal-priority.md",
+     "kind": "교정",
+     "match": "기존 세션은 collocation 비중이 너무 높았고 난이도도 낮아, 900점 목표를 위한 우선순위와 맞지 않았다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "파트별-진단",
+   "label": "파트별 진단",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-goal-priority.md",
+     "kind": "교정",
+     "match": "앞으로는 파트별 진단이 메인이고, collocation은 오답 분석이나 문맥 학습에 연결해 보조적으로 다룬다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "우선순위-설정",
+   "label": "우선순위 설정",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "오답-분석",
+   "label": "오답 분석",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-goal-priority.md",
+     "kind": "교정",
+     "match": "앞으로는 파트별 진단이 메인이고, collocation은 오답 분석이나 문맥 학습에 연결해 보조적으로 다룬다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "고난도-collocation",
+   "label": "고난도 collocation",
+   "domain": "TOEIC 학습 전략",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "실제-toeic-문맥",
+    "오답-어휘",
+    "문장-해석"
+   ],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "실제-toeic-문맥",
+   "label": "실제 TOEIC 문맥",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-goal-priority.md",
+     "kind": "지식",
+     "match": "collocation은 보조 학습으로 두되, 실제 TOEIC 문맥과 난이도에 맞게 수준을 높여야 한다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "오답-어휘",
+   "label": "오답 어휘",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
+   "id": "문장-해석",
+   "label": "문장 해석",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [],
+   "note": ""
+  },
+  {
    "id": "meet-a-deadline",
    "label": "meet a deadline",
    "domain": "TOEIC 어휘",
