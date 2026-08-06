@@ -17,6 +17,43 @@
    "note": "2026-08-02"
   },
   {
+   "id": "품사-판단",
+   "label": "품사 판단",
+   "domain": "TOEIC 문법",
+   "state": "설명가능",
+   "importance": "H",
+   "prereq": [
+    "문장-구조",
+    "수식-관계"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "원장",
+     "match": ""
+    }
+   ],
+   "note": "2026-08-06"
+  },
+  {
+   "id": "by마감-시점",
+   "label": "by(마감 시점)",
+   "domain": "TOEIC 문법",
+   "state": "암기",
+   "importance": "H",
+   "prereq": [
+    "시간-전치사"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "원장",
+     "match": ""
+    }
+   ],
+   "note": "2026-08-06"
+  },
+  {
    "id": "분사형-형용사-의미-구분",
    "label": "분사형 형용사 의미 구분",
    "domain": "TOEIC 문법",
@@ -81,6 +118,11 @@
      "file": "daily/2026-08-02-toeic-collocation.md",
      "kind": "내말",
      "match": "\"c 이고, 관사인 a 뒤와, 명사인 presentation을 꾸며주는 형용사가 들어갈 자리이기 때문에 A와 D는 불가능하고, B는 일반적으로 사람을 꾸며준다고 생각해서 C를 골랐어.\""
+    },
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "내말",
+     "match": "Q2. C 앞에 관사인 a가 있고 뒤에 명사가 있으므로 형용사가 오는 것이 자연스럽고, 인상을 주는 발표를 했다는 의미가 되니, B가 아닌 C가 오게 돼."
     }
    ],
    "note": ""
@@ -107,6 +149,16 @@
      "file": "daily/2026-08-02-toeic-collocation.md",
      "kind": "내말",
      "match": "\"답은 C야. 빈칸 자리는 주격보어가 들어갈 자리라 문법적으로는 명사 형용사 다 들어갈 수 있는데, 문맥을 파악했을 때 by가 들어간 것으로 보아 수동태 형태로 들어가는 것이 적절해보여. A는 were이라는 동사가 있기 때문에 동사원형이 들어가면 안되고, B는 inspire이 타동사인데 목적어가 없어서 안될 것 같고, D는 employees가 영감이라는 의미가 되므로 일치하지 않다고 생각했어\""
+    },
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "내말",
+     "match": "Q2. C 앞에 관사인 a가 있고 뒤에 명사가 있으므로 형용사가 오는 것이 자연스럽고, 인상을 주는 발표를 했다는 의미가 되니, B가 아닌 C가 오게 돼."
+    },
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "내말",
+     "match": "Q4. A, C / to 뒤에는 명사가 오면 전치사, 동사가 오면 to부정사로 활용된다."
     }
    ],
    "note": ""
@@ -678,26 +730,19 @@
    "note": ""
   },
   {
-   "id": "품사-판단",
-   "label": "품사 판단",
-   "domain": "TOEIC Part 5 문법·논리",
-   "state": "미학습",
-   "importance": "M",
-   "prereq": [
-    "문장-구조",
-    "수식-관계"
-   ],
-   "sources": [],
-   "note": ""
-  },
-  {
    "id": "문장-구조",
    "label": "문장 구조",
    "domain": "미분류",
    "state": "미학습",
    "importance": "M",
    "prereq": [],
-   "sources": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "지식",
+     "match": "품사 문제는 문장 구조를 먼저 본다."
+    }
+   ],
    "note": ""
   },
   {
@@ -1082,6 +1127,138 @@
    "importance": "M",
    "prereq": [],
    "sources": [],
+   "note": ""
+  },
+  {
+   "id": "시간-전치사",
+   "label": "시간 전치사",
+   "domain": "TOEIC 문법",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "시각",
+    "날짜요일",
+    "기간"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "취약",
+     "match": "시간 전치사를 의미 기준으로 설명하기."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "시각",
+   "label": "시각",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "지식",
+     "match": "at은 시각, on은 날짜·요일, in은 기간을 나타낸다."
+    },
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "교정",
+     "match": "at 2 p.m.는 시각, by 2 p.m.는 마감 시점이다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "날짜요일",
+   "label": "날짜·요일",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "지식",
+     "match": "at은 시각, on은 날짜·요일, in은 기간을 나타낸다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "기간",
+   "label": "기간",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "지식",
+     "match": "even though는 보증 기간이 만료되었는데도 무상 교체한다는 역접 관계를 나타낸다는 것을 이해했다."
+    },
+    {
+     "file": "daily/2026-08-03-toeic-part-diagnosis.md",
+     "kind": "내말",
+     "match": "\"보증 기간이 만료되었으니까 교체하는거 아니야?? 아 보증이라는게 아.... 일단 보증이 만료되었으니 제조업체가 교체해줘야겠구나라는 의미로 받아들였는데, 보증기간이 만료되기 전에 교체해줄 수 있는거니까 even though가 필요하다는거 정말 이해했어. 한국말 이슈인 것 같아...\""
+    },
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "지식",
+     "match": "at은 시각, on은 날짜·요일, in은 기간을 나타낸다."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "to부정사",
+   "label": "to부정사",
+   "domain": "TOEIC 문법",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [
+    "동사원형"
+   ],
+   "sources": [
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "지식",
+     "match": "easy to + 동사원형은 형용사 뒤의 to부정사 구조이다."
+    },
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "내말",
+     "match": "Q4. A, C / to 뒤에는 명사가 오면 전치사, 동사가 오면 to부정사로 활용된다."
+    },
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "취약",
+     "match": "to가 전치사인지 to부정사인지 빠르게 구분하기."
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "동사원형",
+   "label": "동사원형",
+   "domain": "미분류",
+   "state": "미학습",
+   "importance": "M",
+   "prereq": [],
+   "sources": [
+    {
+     "file": "daily/2026-08-02-toeic-collocation.md",
+     "kind": "내말",
+     "match": "\"답은 C야. 빈칸 자리는 주격보어가 들어갈 자리라 문법적으로는 명사 형용사 다 들어갈 수 있는데, 문맥을 파악했을 때 by가 들어간 것으로 보아 수동태 형태로 들어가는 것이 적절해보여. A는 were이라는 동사가 있기 때문에 동사원형이 들어가면 안되고, B는 inspire이 타동사인데 목적어가 없어서 안될 것 같고, D는 employees가 영감이라는 의미가 되므로 일치하지 않다고 생각했어\""
+    },
+    {
+     "file": "daily/2026-08-06-toeic-review.md",
+     "kind": "지식",
+     "match": "easy to + 동사원형은 형용사 뒤의 to부정사 구조이다."
+    }
+   ],
    "note": ""
   },
   {
